@@ -70,18 +70,19 @@ int main()
 					   }
 					if(sum==9)
 					{ 
-					   cout<<"The Game is over and no one wins,hahaha, you both stink!!!"<<endl;
+					   cout<<"The Game is over and no one wins."<<endl;
 					   break;
 					}
 					//Player 2's Turn
 					cout<<"Player 2 is 'O' :: Choose row and column"<<endl;
+			    		cout<<"Column ::";
+			    		cin>>j;
 					cout<<"Row ::";
 					cin>>i;
-					cout<<"Column ::";
-					cin>>j;
+					
 					for(;i>3||i<1||j>3||j<1||('X'==matrix[i-1][j-1]||'O'==matrix[i-1][j-1]);)
 					{   
-					    cout<<"Sorry !!!,But you gotta choose another place.\n";
+					    cout<<"Sorry !!!,But you need choose another place.\n";
 					    cout<<"Row ::";
 					    cin>>i;
 					    cout<<"Column ::";
