@@ -1,11 +1,12 @@
 #include<iostream>
 #include<stdlib.h>
+#include<conio.h>
 using namespace std;
 char matrix[3][3];
 void disp(void);   //A function to draw the game box
 int main()
 {
-	int m,n;
+	int m,n,o;
 	char ch='Y';
 	while(ch=='Y'||ch=='y')
 	    { system("cls");
